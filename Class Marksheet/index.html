@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Class Marksheet</title>
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Header -->
+        <h1>Class Marksheet</h1>
+        <!-- End of Header -->
+
+        <!-- Input Form -->
+        <div class="inputForm">
+            <table class="formTable">
+                <tr>
+                    <td>Họ tên</td>
+                    <td><input type="text" name="name" id="studentName"></td>
+                    <td><p id="nameError"></p></td>
+                </tr>
+                <tr>
+                    <td>Điểm toán</td>
+                    <td><input type="text" name="math" id="mathScore"></td>
+                    <td><p id="mathError"></p></td>
+                </tr>
+                <tr>
+                    <td>Điểm Lý</td>
+                    <td><input type="text" name="physical" id="physicalScore"></td>
+                    <td><p id="physicalError"></p></td>
+                </tr>
+                <tr>
+                    <td>Điểm Hoá</td>
+                    <td><input type="text" name="chemistry" id="chemistryScore"></td>
+                    <td><p id="chemistryError"></p></td>
+                </tr>
+            </table>
+            <button id="insert">Nhập</button>
+        </div>
+        <!-- End of Input Form -->
+
+        <!-- Score Table -->
+        <div class="score">
+            <table id="scoreTable">
+                <tr>
+                    <th>STT</th>
+                    <th>Họ Tên</th>
+                    <th>Toán</th>
+                    <th>Lý</th>
+                    <th>Hoá</th>
+                    <th>Trung Bình</th>
+                </tr>
+            </table>
+            <div class="calculate">
+                <button id="calAverage">Tính điểm trung bình</button>
+                <button id="highlight">Xác định học sinh giỏi</button>
+            </div>
+        </div>
+        <!-- End of Score Table -->
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/myScript.js"></script>
+    <!-- End of Javascript -->
+</body>
+
+</html>

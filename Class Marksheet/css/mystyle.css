@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------- container ------------------- */
+.container {
+    text-align: center;
+}
+
+/* ------------------ h1 ----------------------- */
+h1 {
+    margin: 50px 0;
+}
+
+/* ------------------ Input Form --------------------- */
+.inputForm {
+    margin-bottom: 50px;
+}
+
+.formTable {
+    width: 25%;
+    margin-left: 42%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.formTable tr {
+    height: 40px;
+}
+
+.formTable tr td:first-child {
+    width: 80px;
+}
+
+.formTable input {
+    height: 25px;
+    width: 200px;
+}
+
+.inputForm button {
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ---------------- Score Table --------------- */
+#scoreTable {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#scoreTable th {
+    border: 1px solid black;
+}
+
+#scoreTable tr {
+    height: 30px;
+}
+
+#scoreTable th:first-child, #scoreTable th:nth-child(3), #scoreTable th:nth-child(4), #scoreTable th:nth-child(5) {
+    width: 10%;
+}
+
+#scoreTable th:nth-child(2) {
+    width: 50%;
+}
+
+#scoreTable td {
+    border: 1px solid black;
+}
+
+#scoreTable td:first-child, #scoreTable td:nth-child(3), #scoreTable td:nth-child(4), #scoreTable td:nth-child(5) {
+    width: 10%;
+}
+
+#scoreTable td:nth-child(2) {
+    width: 50%;
+}
+
+/* ---------------- calculate ----------------- */
+.calculate button {
+    width: 200px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+/* ---------------- highlight ------------------*/
+.red {
+    background-color: red;
+}
